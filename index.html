@@ -11,7 +11,7 @@
 </head>
 <body>
 <main class="wrap">
-<header><small>CURSO DE CONTABILIDADE PROFESSOR MOREIRA</small><h1>Calculadora do ICMS</h1><p>Débitos, créditos e estornos • preencha os valores do período</p></header>
+<header><small>PESSOA & SOARES - SERVIÇOS CONTÁBEIS</small><h1>Calculadora do ICMS</h1><p>Débitos, créditos e estornos • preencha os valores do período</p></header>
 <section class="card"><h2>1. Débitos pelas saídas</h2><p class="hint">Digite a base e a alíquota para calcular o ICMS. Se já souber o ICMS do relatório, pode digitá-lo diretamente no último campo. Deixe operações inexistentes em branco.</p><div id="debits"></div><div class="row line total"><span>Total de débitos pelas saídas</span><strong id="dSales">—</strong></div></section>
 <section class="card"><h2>2. Créditos pelas entradas</h2><p class="hint">Inclui a transferência recebida e as devoluções de venda, quando houver.</p><div id="credits"></div><div class="row line total"><span>Total de créditos pelas entradas</span><strong id="cEntries">—</strong></div></section>
 <section class="card"><h2>3. Estornos</h2><p class="hint">O estorno de crédito aumenta os débitos; o estorno de débito aumenta os créditos. Campo vazio equivale a zero.</p><div class="grid"><label>Estorno de créditos (R$)<input id="creditReversal" inputmode="decimal" value="" placeholder="0,00" aria-label="Estorno de créditos"></label><label>Estorno de débitos (R$)<input id="debitReversal" inputmode="decimal" value="" placeholder="0,00" aria-label="Estorno de débitos"></label></div><div class="row minor"><span>Crédito 2151 para conferência</span><strong id="cfCredit">—</strong></div><div class="row minor"><span>Vendas 5102 + 5105 + 6102 + 6105</span><strong id="cfDebit">—</strong></div></section>
